@@ -1,0 +1,43 @@
+<%- include('partials/header') %>
+
+<div class="sidenav">
+    <a href="#">Dashboard</a>
+    <a href="/adddoctors">Add Doctors</a>
+    <a href="/viewdoctors">View Doctors</a>
+    <a href="/logout">Log Out</a>
+  </div>
+  <div class="box" id="heading">
+    <h1>Doctors</h1>
+  </div>
+  <div class="box">
+    
+    
+        <% newDoctor.forEach(function(doctor){  %>
+          <form action="/" method="post">
+          <div class="item">
+            <table>
+              <tr>
+                <td><h3><%=doctor.username%></h3></td>
+                <td><h6><%=doctor.specility%></h6></td>
+                <td><h6><%=doctor.degree%></h6></td>
+                <td><h6><%=doctor.email%></h6></td>
+                <td><h6><%=doctor.mobile%></h6></td>
+                
+              </tr>
+              <tr>
+                
+                
+              </tr>
+            </table>
+            
+           
+          
+          </div>
+          
+          
+        </form>
+        <% }) %>
+       
+  </div>
+  
+<%- include('partials/header') %>

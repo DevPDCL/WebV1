@@ -1,0 +1,38 @@
+<%- include('partials/header') %>
+
+<div class="box" id="heading">
+  <h1>Doctors</h1>
+</div>
+
+<div class="box">
+
+        <!-- Makes POST request to /register route -->
+        
+        <form  class="item" action="/login" method="POST">
+          <table>
+            
+            <tr>
+              <td><label for="usernsme">Username</label>
+                <input type="text" name="username" class="form-control" placeholder="Username" autocomplete="off" required></td>
+              
+            </tr>
+            
+            <tr>
+              <td><label for="password">Password</label>
+                <input type="password" name="password" class="form-control" placeholder="Password" autocomplete="off" required></td>
+              
+            </tr>
+            <tr>
+              <td><button type="submit">Login Doctors</button></td>
+              
+            </tr>
+            <tr>
+              
+              
+            </tr>
+          </table>
+          
+       </form>
+      </div>
+
+<%- include('partials/footer') %>

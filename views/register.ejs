@@ -1,0 +1,61 @@
+<%- include('partials/header') %>
+
+
+  <div class="box" id="heading">
+    <h1>Admins</h1>
+  </div>
+  
+  <div class="box">
+
+          <!-- Makes POST request to /register route -->
+          
+          <form  class="item" action="/register" method="POST">
+            <table>
+              <tr>
+                <td><p>Full Name:</p>
+                  <input type="text" name="username" placeholder="Full Name" autocomplete="off" required><br></td>
+                
+              </tr>
+              <tr>
+                <td><p>Specility:</p>
+                  <input type="text" name="specility" placeholder="Specility" autocomplete="off" required></td>
+                
+              </tr>
+              <tr>
+                <td><p>Degree:</p>
+                  <input type="text" name="degree" placeholder="Degree" autocomplete="off" required></td>
+                
+              </tr>
+              <tr>
+                <td><p>Email:</p>
+                  <input type="email" name="email" placeholder="Email" autocomplete="off" required></td>
+                
+              </tr>
+              <tr>
+                <td><p>Mobile:</p>
+                  <input type="text" name="mobile" placeholder="Mobile" autocomplete="off" required></td>
+                
+              </tr>
+              <tr>
+                <td><p>Password:</p>
+                  <input type="password" name="password" placeholder="Password" autocomplete="off" required></td>
+                
+              </tr>
+              <tr>
+                <td><button type="submit">Upload Admin</button></td>
+                
+              </tr>
+              <tr>
+                
+                
+              </tr>
+            </table>
+            
+         </form>
+        </div>
+      
+
+   
+
+
+<%- include('partials/header') %>
