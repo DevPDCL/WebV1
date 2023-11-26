@@ -149,6 +149,6 @@ app.post("/adddoctors", function(req, res){
   
 });
 
-app.listen(3006, function() {
-    console.log("Server Started on port 3006");
+app.listen(3010, function() {
+    console.log("Server Started on port 3010");
 });
